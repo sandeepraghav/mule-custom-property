@@ -1,0 +1,18 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/pl-secure-property-provider"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd    
+        http://www.mulesoft.org/schema/mule/pl-secure-property-provider 
+        http://www.mulesoft.org/schema/mule/pl-secure-property-provider/current/mule-pl-secure-property-provider.xsd">
+
+    <!--This initialize the Mule secret config extension-->
+	<pl-secure-property-provider:config
+		 authType="any" configId="secret-test"
+		name="get-test-secret" />
+
+    <!--Use the extension to get value-->
+    <object name="testObject" class="com.pl.mule.provider.secure.property.PLCyberArkTestObject" >
+        <property key="valueFromProperty" value="${pl-sp-cyberark-getSecretValue::us-west-2:mule-demo-secret:mypassword}" />
+    </object>
+
+</mule>
