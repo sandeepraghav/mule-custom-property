@@ -46,14 +46,20 @@ Follow these steps to customize the extension package name:
     
 4.  Add the custom property tag namespace into Mulesoft Project XML :
 
-    a. xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/<your extension name>"
+        ```xml
+        
+        xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/<your extension name>"
+		
 		Example : 
-		```xml
+		
 		 xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/pl-secure-property-provider" 
+		
 		```
 
-	b. http://www.mulesoft.org/schema/mule/<your extension name> 
-http://www.mulesoft.org/schema/mule/<your extension name>/current/<your extension name>.xsd">
+		```xml
+
+		 	http://www.mulesoft.org/schema/mule/<your extension name> 
+			http://www.mulesoft.org/schema/mule/<your extension name>/current/<your extension name>.xsd">
 		Example:
 
 		```xml
