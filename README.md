@@ -100,7 +100,7 @@ You can now configure your new component and start using properties with the pre
 3. Make sure all the maven dependencies are added to pom.xml
 4. If there are problem loading plugin into Mulesoft Studio , make sure namespaces are added to mule project xml .
 
-Note: This code is augmented using existing code https://github.com/pl/mule-awssm-extension to demostrate how we can add support for multiple secrets managers using single custom property extension . 
+__Note: This code is augmented using existing code https://github.com/pl/mule-awssm-extension to demostrate how we can add support for multiple secrets managers using single custom property extension . 
 
 
 ## Sample Mule Project
