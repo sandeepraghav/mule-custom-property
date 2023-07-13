@@ -50,7 +50,6 @@ Follow these steps to customize the extension package name:
 		Example : 
 		```xml
 		 xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/pl-secure-property-provider" 
-		
 		```
 
 	b. http://www.mulesoft.org/schema/mule/<your extension name> 
