@@ -54,12 +54,11 @@ Follow these steps to customize the extension package name:
 		
 		 xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/pl-secure-property-provider" 
 		
-		```
+		
 
-		```xml
-
-		 	http://www.mulesoft.org/schema/mule/<your extension name> 
-			http://www.mulesoft.org/schema/mule/<your extension name>/current/<your extension name>.xsd">
+		http://www.mulesoft.org/schema/mule/<your extension name> 
+		http://www.mulesoft.org/schema/mule/<your extension name>/current/<your extension name>.xsd">
+		
 		Example:
 
 		```xml
