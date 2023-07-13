@@ -49,22 +49,22 @@ Follow these steps to customize the extension package name:
 ```
   
         
-        xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/<your extension name>"
+         xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/<your extension name>"
 		
-		Example : 
+		** Example : 
 		
-		 xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/pl-secure-property-provider" 
+		 _ _ xmlns:pl-secure-property-provider="http://www.mulesoft.org/schema/mule/pl-secure-property-provider" 
 		
 		
 
-		http://www.mulesoft.org/schema/mule/<your extension name> 
-		http://www.mulesoft.org/schema/mule/<your extension name>/current/<your extension name>.xsd">
+		_ _ http://www.mulesoft.org/schema/mule/<your extension name> 
+		_ _ http://www.mulesoft.org/schema/mule/<your extension name>/current/<your extension name>.xsd">
 		
-		Example:
+		** Example:
 
 		
-			http://www.mulesoft.org/schema/mule/pl-secure-property-provider 
-			http://www.mulesoft.org/schema/mule/pl-secure-property-provider/current/mule-pl-secure-property-provider.xsd
+		_ _ http://www.mulesoft.org/schema/mule/pl-secure-property-provider 
+		_ _ http://www.mulesoft.org/schema/mule/pl-secure-property-provider/current/mule-pl-secure-property-provider.xsd
 
 ```
 
